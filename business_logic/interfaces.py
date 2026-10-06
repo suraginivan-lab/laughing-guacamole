@@ -1,0 +1,6 @@
+from abc import ABC, abstractmethod
+class IRentalService(ABC):
+    @abstractmethod
+    def create_rental(self, bike_id, client_id, expected_return_at, started_at=None): ...
+    @abstractmethod
+    def return_bike(self, rental_id, returned_at=None): ...

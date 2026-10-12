@@ -26,7 +26,7 @@ python main.py
 ```
 ## Запуск тестирования
 ```bash
-pytest
+python -m pytest
 ```
 
 
